@@ -1,0 +1,22 @@
+# Increases screen brightness
+"xbacklight -inc 10"
+    XF86MonBrightnessUp
+
+# Decreases screen brightness
+"xbacklight -dec 10"
+    XF86MonBrightnessDown
+
+# Raises the volume
+"amixer -q set Master 5%+"
+    XF86AudioRaiseVolume
+  
+# Lowers the volume
+"amixer -q set Master 5%-"
+    XF86AudioLowerVolume
+
+# Toggles mute/unmute of the volume
+"amixer -q set Master toggle"
+    XF86AudioMute
+
+
+
